@@ -1,0 +1,34 @@
+nav {
+  margin-bottom: 20px;
+}
+nav a {
+  margin-left: 20px;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+.contact {
+  align-items: center;
+  border-bottom: 1px solid gray;
+  display: flex;
+}
+.contact > div {
+  flex: 1;
+}
+.tags span {
+  margin-right: 5px;
+}
+.headerRow {
+  align-items: center;
+  display: flex;
+}
+.headerRow a {
+  cursor: pointer;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.activeRoute {
+  font-size: 20px;
+  font-weight: bold;
+}
