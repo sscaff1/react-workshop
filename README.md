@@ -268,7 +268,7 @@ function App() {
 ```
 ## Slide 10 Notes:
 - Remember JSX is not HTML
-- React can currently on return one child. This is changing with React Fiber (you'll be able to render an array of children).
+- React can currently only return one child. This is changing with React Fiber (you'll be able to render an array of children).
 - Hard coded data does not have to sit inside the class (this is simply a matter of preference). All it has to do is be in scope.
 - {} anything inside these brackets just indicates to React that I want to escape JSX so that I can use regular JavaScript.
 ## Slide 13 Notes
