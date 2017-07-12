@@ -225,7 +225,7 @@ class App extends React.Component {
   }; // notice no comma; semicolon instead
 
   increment() {
-    this.setState({ count: this.state.count : 1 })
+    this.setState({ count: this.state.count + 1 })
   };
 
   render() {
@@ -243,7 +243,7 @@ class App extends React.Component {
   };
 
   increment = () => { // property initializer; implicitly binds this
-    this.setState({ count: this.state.count : 1 })
+    this.setState({ count: this.state.count + 1 })
   }
 
   render() {
