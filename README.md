@@ -334,7 +334,7 @@ list.map(item => <Item key={item.id} />
 const person = { name: 'Joe', age: 27, weight: 170 };
 // using destructuring we can create variables name, age, weight based on the keys of the person object
 const { name, age, weight } = person
-// notice that we can also destructor in the parameters of a function (like we do with React)
+// notice that we can also destructure in the parameters of a function (like we do with React)
 function logDetails({ name, age, weight }) {
   console.log(name, age, weight);
 }
